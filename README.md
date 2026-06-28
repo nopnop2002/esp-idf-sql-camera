@@ -59,7 +59,7 @@ You can use static IP.
 
 ### HTTP Server Setting
 The ESP32 sends pictures to the SQLite server via HTTP.   
-Specify the IP address and port number of the SQLite server.   
+Specify the IP address and port number of the HTTP server.   
 You can use mDNS hostnames instead of IP addresses.   
 <img width="659" height="486" alt="Image" src="https://github.com/user-attachments/assets/605e813a-4e7d-403e-9ec0-b6da72ba7ccc" />
 
@@ -145,10 +145,20 @@ When you use ESP32S3-WROVER CAM, you need to change the PSRAM type.
 ![config-psram](https://github.com/nopnop2002/esp-idf-websocket-camera/assets/6020549/ba04f088-c628-46ac-bc5b-2968032753e0)
 
 # Start http server
+```
+$ python3 http_server.py --help
+usage: http_server.py [-h] --path PATH [--port PORT]
+
+options:
+  -h, --help   show this help message and exit
+  --path PATH  db path
+  --port PORT  http port
+```
 The HTTP server creates an SQLite table.   
-<img width="659" height="486" alt="Image" src="https://github.com/user-attachments/assets/bdbda196-ac19-4af4-82ab-9ee9c19c2b55" />
+<img width="659" height="486" alt="Image" src="https://github.com/user-attachments/assets/bdbda196-ac19-4af4-82ab-9ee9c19c2b55" />   
 The ESP32 sends pictures to the SQLite server via HTTP.   
-<img width="659" height="486" alt="Image" src="https://github.com/user-attachments/assets/8cf24fff-c859-41be-bcd0-055336bf6b58" />
+The HTTP server stores pictures in SQLite.   
+<img width="659" height="486" alt="Image" src="https://github.com/user-attachments/assets/8cf24fff-c859-41be-bcd0-055336bf6b58" />   
 
 # View picture using Built-in WEB Server
 ESP32 works as a web server.   
