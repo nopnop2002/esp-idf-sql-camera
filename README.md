@@ -169,6 +169,7 @@ You can connect using mDNS hostname instead of IP address.
 ![browser](https://user-images.githubusercontent.com/6020549/124227364-837a7880-db45-11eb-9d8b-fa15c676adac.jpg)
 
 # View picture using DB Browser for SQLite
+This tool runs on Windows, macOS, Linux, and FreeBSD.   
 We can download it from [here](https://sqlitebrowser.org/).   
 We can view the picture saved in SQLite3 using it.   
 <img width="1180" height="657" alt="Image" src="https://github.com/user-attachments/assets/ffdf6074-02ca-491d-bc0e-fd376fd2ab1d" />
