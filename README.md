@@ -152,8 +152,11 @@ options:
   --path PATH  db path
   --port PORT  http port
 ```
-The HTTP server creates an SQLite table.   
+
+The HTTP server creates the `images` table.   
+`CREATE TABLE images (id integer primary key autoincrement, date text not null, time text not null, image blob not null)`   
 <img width="659" height="486" alt="Image" src="https://github.com/user-attachments/assets/bdbda196-ac19-4af4-82ab-9ee9c19c2b55" />   
+
 The ESP32 sends pictures to the SQLite server via HTTP.   
 The HTTP server stores pictures in SQLite.   
 <img width="659" height="486" alt="Image" src="https://github.com/user-attachments/assets/8cf24fff-c859-41be-bcd0-055336bf6b58" />   
