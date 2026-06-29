@@ -5,6 +5,7 @@ This project use [this](https://components.espressif.com/components/espressif/es
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/742156d7-68b3-44a7-8708-2436894af888" />
 
 We can view the picture saved in SQLite3 using DB Browser for SQLite.   
+DB Browser for SQLite can display JPEG images stored in BLOBs.   
 <img width="1180" height="657" alt="Image" src="https://github.com/user-attachments/assets/ffdf6074-02ca-491d-bc0e-fd376fd2ab1d" />
 
 # Hardware requirements
