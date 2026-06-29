@@ -3,6 +3,7 @@ Take a picture and save it to SQLite.
 This project use [this](https://components.espressif.com/components/espressif/esp32-camera) Camera Driver.   
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/0974e419-c154-4f2d-b8d7-15f4989b971c" />
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/742156d7-68b3-44a7-8708-2436894af888" />
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/20cab001-5548-4236-ac48-ae2d68b0d6f3" />
 
 We can view the picture saved in SQLite using DB Browser for SQLite.   
 DB Browser for SQLite can display JPEG images stored in BLOBs.   
