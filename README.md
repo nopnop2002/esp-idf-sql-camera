@@ -129,9 +129,7 @@ In addition to this, you can select the following triggers:
 - Shutter is MQTT Publish   
 	ESP32 acts as an MQTT subscriber and listens to requests from MQTT publishes.   
 	You can use mosquitto_pub as shutter.   
-	```
-	mosquitto_pub -h your_broker -p 1883 -t "/take/picture" -m ""
-	```
+	`mosquitto_pub -h your_broker -p 1883 -t "/take/picture" -m ""`   
 	You can use publish.py as shutter.   
 	`python3 ./publish.py`
 	<img width="659" height="486" alt="Image" src="https://github.com/user-attachments/assets/4579f229-155e-49f4-afd7-f40c8b660d78" />
