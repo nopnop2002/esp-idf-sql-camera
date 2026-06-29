@@ -182,5 +182,5 @@ You can connect using mDNS hostname instead of IP address.
 This tool runs on Windows, macOS, Linux, and FreeBSD.   
 We can download it from [here](https://sqlitebrowser.org/).   
 We can view the picture saved in SQLite using it.   
-<img width="1180" height="657" alt="Image" src="https://github.com/user-attachments/assets/ffdf6074-02ca-491d-bc0e-fd376fd2ab1d" />
+<img width="1191" height="728" alt="Image" src="https://github.com/user-attachments/assets/805a190c-0f44-4d08-8e53-64910476fda5" />
 
