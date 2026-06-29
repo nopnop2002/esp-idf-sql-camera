@@ -19,8 +19,15 @@ From the left:
 ![es32-camera](https://github.com/nopnop2002/esp-idf-websocket-camera/assets/6020549/38dbef9a-ed85-4df2-8d22-499b2b497278)
 
 # Software requirements
-ESP-IDF V5.0 or later.   
-ESP-IDF V4.4 release branch reached EOL in July 2024.   
+- ESP-IDF V5.0 or later.   
+	ESP-IDF V4.4 release branch reached EOL in July 2024.   
+
+- Python3
+	The ESP32 sends pictures via HTTP.   
+	The HTTP server runs on Python.   
+
+- SQLite
+	You can download from [here](https://www.sqlite.org/).   
 
 # Installation
 For AiThinker ESP32-CAM, you need to use a USB-TTL converter and connect GPIO0 to GND.   
@@ -153,7 +160,7 @@ options:
   --port PORT  http port
 ```
 
-The HTTP server creates the `images` table.   
+This script creates the `images` table.   
 `CREATE TABLE images (id integer primary key autoincrement, date text not null, time text not null, image blob not null)`   
 <img width="659" height="486" alt="Image" src="https://github.com/user-attachments/assets/bdbda196-ac19-4af4-82ab-9ee9c19c2b55" />   
 
