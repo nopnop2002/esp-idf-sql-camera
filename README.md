@@ -1,10 +1,10 @@
 # esp-idf-sql-camera
-Take a picture and save it to SQLite3.   
+Take a picture and save it to SQLite.   
 This project use [this](https://components.espressif.com/components/espressif/esp32-camera) Camera Driver.   
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/0974e419-c154-4f2d-b8d7-15f4989b971c" />
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/742156d7-68b3-44a7-8708-2436894af888" />
 
-We can view the picture saved in SQLite3 using DB Browser for SQLite.   
+We can view the picture saved in SQLite using DB Browser for SQLite.   
 DB Browser for SQLite can display JPEG images stored in BLOBs.   
 <img width="1180" height="657" alt="Image" src="https://github.com/user-attachments/assets/ffdf6074-02ca-491d-bc0e-fd376fd2ab1d" />
 
@@ -180,6 +180,6 @@ You can connect using mDNS hostname instead of IP address.
 # View picture using DB Browser for SQLite
 This tool runs on Windows, macOS, Linux, and FreeBSD.   
 We can download it from [here](https://sqlitebrowser.org/).   
-We can view the picture saved in SQLite3 using it.   
+We can view the picture saved in SQLite using it.   
 <img width="1180" height="657" alt="Image" src="https://github.com/user-attachments/assets/ffdf6074-02ca-491d-bc0e-fd376fd2ab1d" />
 
