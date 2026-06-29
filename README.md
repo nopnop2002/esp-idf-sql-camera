@@ -22,11 +22,11 @@ From the left:
 - ESP-IDF V5.0 or later.   
 	ESP-IDF V4.4 release branch reached EOL in July 2024.   
 
-- Python3
+- Python3   
 	The ESP32 sends pictures via HTTP.   
 	The HTTP server runs on Python.   
 
-- SQLite
+- SQLite   
 	You can download from [here](https://www.sqlite.org/).   
 
 # Installation
