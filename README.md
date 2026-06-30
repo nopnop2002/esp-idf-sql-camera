@@ -160,6 +160,8 @@ options:
   -h, --help   show this help message and exit
   --path PATH  db path
   --port PORT  http port
+
+$ python3 http_server.py --path $HOME/mydb.db
 ```
 
 This script creates the `images` table.   
