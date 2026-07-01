@@ -186,3 +186,9 @@ We can download it from [here](https://sqlitebrowser.org/).
 We can view the picture saved in SQLite using it.   
 <img width="1191" height="728" alt="Image" src="https://github.com/user-attachments/assets/805a190c-0f44-4d08-8e53-64910476fda5" />
 
+# View picture using DBeaver
+This tool runs on Windows, macOS and Linux.   
+We can download it from [here](https://dbeaver.io/download/).   
+We can view the picture saved in SQLite using it.   
+<img width="1191" height="637" alt="Image" src="https://github.com/user-attachments/assets/58af2805-06bd-4935-a273-c9681d05f263" />
+
