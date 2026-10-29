@@ -25,7 +25,6 @@
 #include "lwip/netdb.h"
 #include "lwip/dns.h"
 
-#include "cJSON.h"
 #include "cmd.h"
 
 /* Constants that are configurable in menuconfig */
