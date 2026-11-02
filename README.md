@@ -85,6 +85,8 @@ You can use this command as shutter.
 `curl -X POST http://{ESP32's IP Address}:8080/post`   
 If your ESP32's IP address is `192.168.10.157`, it will look like this.   
 `curl -X POST http://192.168.10.157:8080/post`   
+You can use an mDNS host name instead of an IP address.
+`curl -X POST http://esp32-camera.local:8080/post`
 
 In addition to this, you can select the following triggers:   
 
